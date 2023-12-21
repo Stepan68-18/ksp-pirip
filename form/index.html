@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+</head>
+<body>
+    <form action="#">
+        <div class="form-item">
+            <label for="">Фамилия</label>
+            <input type="text" name="familyname" placeholder="Иванов">
+        </div>
+        <div class="form-item">
+            <label for="">Имя</label>
+            <input type="text" name="familyname" placeholder="Иванович">
+        </div>
+        <div class="form-item">
+            <label for="">Отчество</label>
+            <input type="text" name="familyname" placeholder="Иванович">
+        </div>
+
+        <div class="form-item">
+            <input type="radio" name="gender" value="male">
+            <label for="">Мужской</label>
+            <input type="radio" name="gender" value="female">
+            <label for="">Женский</label>
+        </div>
+
+        <div class="form-item">
+            <label for="">Обо мне</label>
+            <textarea name="about" id="" cols="30" rows="10" placeholder="Всем привет"></textarea>
+        </div>
+
+        <div class="form-item">
+            <label for="">Увлечения</label>
+            <div class="form-item-checkbox">
+                <input type="checkbox" name="color" value="red" id="">
+                <label for="">Красный</label>
+                <input type="checkbox" name="color" value="blue" id="">
+                <label for="">Синий</label>
+                <input type="checkbox" name="color" value="yellow" id="">
+                <label for="">Желтый</label>
+                <input type="checkbox" name="color" value="green" id="">
+                <label for="">Зеленый</label>
+            </div>
+        </div>
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>
